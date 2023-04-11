@@ -1,6 +1,6 @@
 # Learn SCSS
 
-![npm](https://img.shields.io/npm/dw/Learn SCSS
+![npm](https://img.shields.io/npm/dw/learn-scss)
 
 ## Variables
 
@@ -431,4 +431,5 @@ $i : 10;
     }
 }
 ```
+
 )
