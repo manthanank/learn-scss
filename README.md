@@ -1,6 +1,67 @@
 # Learn SCSS
 
+This repository contains the code for learning SCSS. SCSS is a preprocessor scripting language that is interpreted or compiled into CSS. SCSS is a superset of CSS, which means that it contains all of the features of CSS and is built on top of CSS. SCSS files are processed by the server before being served to the client as a CSS file.
+
 ![npm](https://img.shields.io/npm/dw/learn-scss)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/manthanank/learn-scss)
+![GitHub repo size](https://img.shields.io/github/repo-size/manthanank/learn-scss)
+![GitHub](https://img.shields.io/github/license/manthanank/learn-scss)
+![GitHub last commit](https://img.shields.io/github/last-commit/manthanank/learn-scss)
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Variables](#variables)
+- [Nesting](#nesting)
+- [Partials & Imports](#partials--imports)
+- [Mixins](#mixins)
+- [Extends](#extends)
+- [Operators](#operators)
+- [Functions](#functions)
+- [Inbuild Functions](#inbuild-functions)
+- [Number Functions](#number-functions)
+- [String Functions](#string-functions)
+- [Colors Functions](#colors-functions)
+- [Lists](#lists)
+- [Selectors](#selectors)
+- [Map](#map)
+- [Introspection](#introspection)
+- [Conditional Directives](#conditional-directives)
+- [Loops](#loops)
+
+## Installation
+
+```bash
+npm install scss
+```
+
+## Usage
+
+```bash
+sass input.scss output.css
+```
+
+## Features
+
+- Variables
+- Nesting
+- Partials & Imports
+- Mixins
+- Extends
+- Operators
+- Functions
+- Inbuild Functions
+- Number Functions
+- String Functions
+- Colors Functions
+- Lists
+- Selectors
+- Map
+- Introspection
+- Conditional Directives
+- Loops
 
 ## Variables
 
@@ -233,7 +294,7 @@ $base-color: pink;
 - list-separator()
 - is-bracketed()
 
-```bash
+```scss
 $list : 10px 20px 30px;
 $list1 : 10px 20px 30px;
 $list2 : 10px 20px 30px;
@@ -261,7 +322,7 @@ $list2 : 10px 20px 30px;
 - selector-unify
 - selector-extend
 
-```bash
+```scss
 $selector : selector-nest("ul","li");
 $selector : selector-append("a",".active");
 $selector : selector-replace("a.ab",".ab");
@@ -284,7 +345,7 @@ $selector : selector-extend("a.active","a",".link");
 - map-values()
 - map-has-keys()
 
-```sass
+```scss
 $font-weights : ("regular" : 400, "medium": 500, "bold": 700);
 $light-weights : ("lightest" : 400, "light": 500);
 
@@ -310,7 +371,7 @@ $remove: map-remove($font-weights, "regular")
 - type-of()
 - inspect()
 
-```sass
+```scss
 $char : "Arial"
 $list : 10px 20px 30px;
 $map : ("regular" : 400, "medium" : 500);
@@ -337,7 +398,7 @@ $map : ("regular" : 400, "medium" : 500);
 
 @contect
 
-```sass
+```scss
 @mixin test{
     @content;
 }
@@ -351,7 +412,7 @@ $map : ("regular" : 400, "medium" : 500);
 
 @media
 
-```sass
+```scss
 .container{
     width: 1100px;
     margin: 0px auto;
@@ -367,7 +428,7 @@ $map : ("regular" : 400, "medium" : 500);
 
 @at-root
 
-```sass
+```scss
 .item{
     color: red;
 
@@ -386,7 +447,7 @@ $map : ("regular" : 400, "medium" : 500);
 
 @if and @else and @else if
 
-```sass
+```scss
 $test : 2;
 
 p{
@@ -403,7 +464,7 @@ p{
 
 @for
 
-```sass
+```scss
 @for $1 from 1 through 3{
     .list{
     width: 100px;
@@ -413,7 +474,7 @@ p{
 
 @each
 
-```sass
+```scss
 @each $iin (normal, bold, italic){
     .test{
     font-weight: bold;
@@ -423,7 +484,7 @@ p{
 
 @while
 
-```sass
+```scss
 $i : 10;
 @while $i <= 50{
     .padding{
@@ -432,4 +493,25 @@ $i : 10;
 }
 ```
 
-)
+## Connect with me
+
+- [Twitter](https://twitter.com/manthan_ank)
+- [LinkedIn](https://www.linkedin.com/in/manthanank)
+- [Facebook](https://www.facebook.com/manthanank/)
+- [Instagram](https://www.instagram.com/manthan_ank/)
+- [YouTube](https://www.youtube.com/@manthanank)
+- [GitHub](https://github.com/manthanank)
+
+## Support
+
+If you like this learning repository and find it useful, consider buying me a coffee or sponsoring me through the GitHub Sponsor. Your support will help me to continue and bring more exciting projects. Thank you!
+
+[![Buy Me A Coffee](/assets/bmc-button.svg)](https://www.buymeacoffee.com/manthanank)
+
+[![Sponsor Me](https://img.shields.io/badge/Sponsor-GitHub-green)]([https://](https://github.com/sponsors/manthanank))
+
+---
+
+Show your support by 🌟 the repository.
+
+---
